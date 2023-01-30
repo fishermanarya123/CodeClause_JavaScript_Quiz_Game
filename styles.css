@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  body{
+    background-color:#998BC2;
+    font-family: 'Roboto' ,sans-serif;
+  }
+  .main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #box,#start{
+    width:50%;
+    height:50%;
+    background-color:#D1c3De;
+    border-radius:10px;
+    padding:15px;
+    justify-content:center;
+    align-items:center;
+    
+    
+  }
+  #box{
+    display:none;
+  }
+  .ruleline{
+    margin-top: 10px;
+    color: #998bc2;
+  }
+  .head{
+    width: 100%;
+  }
+  #start{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .row{
+    width:80%;
+    padding:10px;
+    margin-left:0;
+    transition-duration:1s;
+    
+    
+  }
+  .row:hover{
+    background-color:#89E330;
+    margin-left:25px;
+  }
+  .btn{
+    margin-top:30px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    }
+  #clr ,#nxt,#prv,#rpl,#quit,#strtbtn{
+    font-size:1.8vw;
+    color:black;
+    background-color:#D1c3De;
+    border-radius:5px;
+    padding:2px ;
+    border:solid 1px;
+    border-color:black;
+    transition-duration:0.5s;
+    
+  }
+  #clr:hover ,#nxt:hover,#rpl:hover,#quit:hover,#prv:hover,#strtbtn:hover{
+    background-color:#998BC2;
+    
+  }
+  .optline{
+    color:white;
+    width:80%;
+      align-items:center;
+    margin-left:25px;
+    color:#998BC2;
+  }
+  #rpl,#quit{
+    width: 30%;
+    margin-left: 5px;
+  }
